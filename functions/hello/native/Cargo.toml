@@ -1,0 +1,17 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["talves <tony@3alves.com>"]
+license = "MIT"
+build = "build.rs"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "hello"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.3.3"
+
+[dependencies]
+neon = "0.3.3"

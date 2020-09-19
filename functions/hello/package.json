@@ -1,0 +1,14 @@
+{
+  "name": "hello",
+  "version": "0.1.0",
+  "description": "Hello world Netlify function using neon",
+  "main": "hello.js",
+  "author": "talves <tony@3alves.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.3.3"
+  },
+  "scripts": {
+    "build": "neon build"
+  }
+}

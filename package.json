@@ -1,0 +1,15 @@
+{
+  "name": "rust-netlify-function-neon",
+  "version": "0.1.0",
+  "description": "Netlify function using Rust neon",
+  "author": "talves <tony@3alves.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:hello": "yarn workspace hello build"
+  },
+  "private": true,
+  "workspaces": [
+    "functions",
+    "functions/*"
+  ]
+}
