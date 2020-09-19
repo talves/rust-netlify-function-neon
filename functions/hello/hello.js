@@ -1,4 +1,4 @@
-const { hello } = require("./native");
+const { hello } = require("./native/index.node");
 
 exports.handler = async function ({ queryStringParameters = {} }) {
   try {

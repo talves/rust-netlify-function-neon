@@ -1,4 +1,4 @@
 [build]
-  command="mkdir site && echo '<h1>Our Rust Netlify Function using neon</h1>' > site/index.html"
+  command="npm run build:site"
   publish="site"
   functions="functions"

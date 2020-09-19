@@ -5,7 +5,8 @@
   "author": "talves <tony@3alves.com>",
   "license": "MIT",
   "scripts": {
-    "build:hello": "yarn workspace hello build"
+    "build:hello": "yarn workspace hello build",
+    "build:site": "mkdir site && echo '<h1>Our Rust Netlify Function using neon</h1>' > site/index.html"
   },
   "private": true,
   "workspaces": [
