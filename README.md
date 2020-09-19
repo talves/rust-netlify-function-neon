@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e24ca23d-eb12-4d75-a98a-7ffd1d07e50c/deploy-status)](https://app.netlify.com/sites/rust-netlify-function/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/14e21263-4c90-4e21-a45a-7d69d9dbd6a8/deploy-status)](https://app.netlify.com/sites/rust-netlify-function-neon/deploys)
 
 ## Rust Netlify Function ([neon][neon])
 
